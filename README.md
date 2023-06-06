@@ -24,7 +24,7 @@ Developed by: J NETHRAA
 
 RegisterNumber: 212222100031
 */
-
+```python
 module Verilog1(a,b,c,d,w,x,y,z,F1,F2);
 input a,b,c,d,w,x,y,z;
 output F1,F2;
@@ -42,7 +42,7 @@ assign B4= (w&(~x)&y);
 assign B5= (w&y&z);
 assign F2= B1|B2|B3|B4|B5;
 endmodule		 
-
+```
 ## Output:
 ## RTL
 ![image](https://user-images.githubusercontent.com/118343401/234772584-e3313e30-289d-4b70-9ef6-f248462c4cf8.png)
